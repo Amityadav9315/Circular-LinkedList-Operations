@@ -87,7 +87,15 @@ public class CircularLinkedList {
             return;
 
         }
-        if(head==tail){
+        Node temp=head;
+        do{
+            System.out.println(temp.data+"\t");
+            temp=temp.next;
+
+            }
+        while(temp!=head);
+        System.out.println();
+
 
         }
     }
