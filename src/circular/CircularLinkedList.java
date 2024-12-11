@@ -30,7 +30,13 @@ public class CircularLinkedList {
     }
 
     //add data to the end
-    public  void
+    public void addEnd(int data){
+        Node newNode=new Node(data);
+        if(tail==null){
+            this.head=newNode;
+            this.tail=newNode;
+            head.next=head;
+            head.prev=head;
         }
     }
 }
