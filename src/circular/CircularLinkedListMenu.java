@@ -7,7 +7,7 @@ public class CircularLinkedListMenu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         CircularLinkedList list = new CircularLinkedList();
-        int choice, data;
+        int choice, data = 0;
         do {
             System.out.println("\n Circular  linked List Operations:");
             System.out.println("1. Add at Front");
@@ -49,12 +49,18 @@ public class CircularLinkedListMenu {
                     list.displayBackward();
                     break;
                 case 7:
-                    System.out.println("Entre the data to search");
-                    int data = sc.nextInt();
+                    System.out.println("Enter the data to search:");
+                     data = sc.nextInt(); // Read the data to search from the user
+                    boolean found = list.searchData(data); // Assuming `searchData` returns a boolean
 
-
-                    list.searchData();
+                    // Print the result
+                    if (found) {
+                        System.out.println("Data found in the list.");
+                    } else {
+                        System.out.println("Data not found in the list.");
+                    }
                     break;
+
                 default:
                     System.out.println("Invalid choice");
 
