@@ -111,5 +111,15 @@ public class CircularLinkedList {
         }
         while(temp!=tail);
         System.out.println();
+
+    }
+    //search data
+    public void searchData(){
+        if(head==null){
+            System.out.println("Linklist is empty");
+            return;
+        }
+        Node temp=head;
+
     }
 }
