@@ -74,6 +74,20 @@ public class CircularLinkedList {
         }
         else{
             tail=tail.prev;
+            tail.next=head;
+            head.prev=tail;
+
+        }
+    }
+    //display forward
+
+    public  void displayForward(){
+        if(head==null) {
+            System.out.println("Linklist is empty");
+            return;
+
+        }
+        if(head==tail){
 
         }
     }
