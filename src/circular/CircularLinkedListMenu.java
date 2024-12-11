@@ -9,14 +9,30 @@ public class CircularLinkedListMenu {
         CircularLinkedList list=new CircularLinkedList();
         int choice,data;
         do{
-            System.out.println("\n Doubly linked List Operations:");
+            System.out.println("\n Circular  linked List Operations:");
             System.out.println("1. Add at Front");
             System.out.println("2. Add at End");
             System.out.println("3. Delete from Front");
-            System.out.println("4. Delete fron End");
-            System.out.println("5. Display from Front");
-            System.out.println("6. Display from End");
+            System.out.println("4. Delete from End");
+            System.out.println("5. Display forward");
+            System.out.println("6. Display backward");
             System.out.println("7. Search data");
+            System.out.println("Enter the choice");
+            choice=sc.nextInt();
+            switch(choice){
+                case 1:
+                    System.out.println("Enter the data to add at front");
+                    data=sc.nextInt();
+                    list.addFront(data);
+                    System.out.println(data +" added to front");
+                    break;
+                case 2:
+                    System.out.println("Enter the data to add at End");
+                    data=sc.nextInt();
+                    list.addEnd(data);
+                    System.out.println(data+"added at End");
+                    break;
+            }
         }
 
     }

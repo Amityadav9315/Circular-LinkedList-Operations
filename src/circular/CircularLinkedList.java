@@ -64,7 +64,7 @@ public class CircularLinkedList {
         }
     }
     //delete from end
-    public void deleteEnd(){
+    public void deleteEnd(int data){
         if(tail==null){
             System.out.println("Empty linklist");
         }
