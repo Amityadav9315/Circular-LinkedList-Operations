@@ -98,5 +98,18 @@ public class CircularLinkedList {
 
 
         }
+        //display backward
+    public void displayBackward(){
+        if(tail==null){
+            System.out.println("List is empty");
+            return;
+        }
+        Node temp=tail;
+        do{
+            System.out.println(temp.data+"\t");
+            temp=temp.prev;
+        }
+        while(temp!=tail);
+        System.out.println();
     }
 }
