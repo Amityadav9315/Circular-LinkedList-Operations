@@ -47,4 +47,34 @@ public class CircularLinkedList {
         }
     }
     //delete from front
+    public void deleteFront(int data){
+        if(head==null){
+            System.out.println("Empty list");
+        }
+        if(head==tail){
+            head=null;
+            tail=null;
+        }
+        else{
+            head=head.next;
+            head.prev=tail;
+            tail.next=head;
+
+
+        }
+    }
+    //delete from end
+    public void deleteEnd(){
+        if(tail==null){
+            System.out.println("Empty linklist");
+        }
+        if(head==tail){
+            this.tail=null;
+            this.head=null;
+        }
+        else{
+            tail=tail.prev;
+
+        }
+    }
 }
