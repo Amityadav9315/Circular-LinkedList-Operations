@@ -18,5 +18,19 @@ public class CircularLinkedList {
             head.next=head;
             head.prev=head;
         }
+        else{
+            newNode.next=head;
+            newNode.prev=tail;
+            head.prev=newNode;
+            tail.next=newNode;
+
+            head=newNode;
+
+        }
+    }
+
+    //add data to the end
+    public  void
+        }
     }
 }
