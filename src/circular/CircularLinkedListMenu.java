@@ -32,6 +32,16 @@ public class CircularLinkedListMenu {
                     list.addEnd(data);
                     System.out.println(data+"added at End");
                     break;
+                case 3:
+                    System.out.println("Delecting from front");
+                    list.deleteFront(data);
+                    break;
+                case 4:
+                    System.out.println("Delete from End");
+                    list.deleteEnd(data);
+                    break;
+                case 5:
+
             }
         }
 
