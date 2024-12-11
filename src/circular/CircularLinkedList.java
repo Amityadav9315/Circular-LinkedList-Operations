@@ -46,4 +46,5 @@ public class CircularLinkedList {
             tail=newNode;
         }
     }
+    //delete from front
 }
