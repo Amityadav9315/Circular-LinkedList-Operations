@@ -89,7 +89,7 @@ public class CircularLinkedList {
         }
         Node temp=head;
         do{
-            System.out.println(temp.data+"\t");
+            System.out.print(temp.data+"\t");
             temp=temp.next;
 
             }
@@ -106,7 +106,7 @@ public class CircularLinkedList {
         }
         Node temp=tail;
         do{
-            System.out.println(temp.data+"\t");
+            System.out.print(temp.data+"\t");
             temp=temp.prev;
         }
         while(temp!=tail);

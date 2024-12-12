@@ -37,11 +37,11 @@ public class CircularLinkedListMenu {
                     list.deleteFront(data);
                     break;
                 case 4:
-                    System.out.println("Delete from End");
+                    System.out.println("Deleting  from End");
                     list.deleteEnd(data);
                     break;
                 case 5:
-                    System.out.println("Displaying linkedlist from forward");
+                    System.out.println("Displaying linkedlist from forward ");
                     list.displayForward();
                     break;
                 case 6:
