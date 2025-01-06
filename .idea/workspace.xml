@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ffc395d9-19d5-459c-8422-5ef2dc6e4967" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/circular/CircularLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/circular/CircularLinkedList.java" afterDir="false" />
-    </list>
+    <list default="true" id="ffc395d9-19d5-459c-8422-5ef2dc6e4967" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,7 +35,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/amit9/Downloads/journalApp/DoublyLinkedList",
+    "last_opened_file_path": "C:/Users/amit9/Downloads/journalApp/4_stack",
     "onboarding.tips.debug.path": "C:/Users/amit9/Downloads/journalApp/CircularLinkedList/src/Main.java"
   }
 }]]></component>
