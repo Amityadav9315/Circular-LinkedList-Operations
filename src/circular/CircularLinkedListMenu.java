@@ -30,13 +30,14 @@ public class CircularLinkedListMenu {
                     System.out.println("Enter the data to add at End");
                     data = sc.nextInt();
                     list.addEnd(data);
-                    System.out.println(data + "added at End")
+                    System.out.println(data + "added at End");
                     break;
                 case 3:
                     System.out.println("Delecting from front");
                     list.deleteFront(data);
                     break;
                 case 4:
+                    System.out.println("rttklff");
                     System.out.println("Deleting  from End");
                     list.deleteEnd(data);
                     break;
