@@ -44,6 +44,7 @@ public class CircularLinkedListMenu {
                 case 5:
                     System.out.println("Displaying linkedlist from forward ");
                     list.displayForward();
+                    sout
                     break;
                 case 6:
                     System.out.println("Display backward");
